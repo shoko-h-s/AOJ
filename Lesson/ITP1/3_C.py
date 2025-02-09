@@ -8,7 +8,7 @@ while True:
     if (x == 0) and (y == 0):
         break
 
-    if x > y:
+    elif x > y:
         x, y = y, x
 
     xy_list.append([x, y])
