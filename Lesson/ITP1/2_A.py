@@ -11,6 +11,4 @@ else:
 
 # 解いたChallenge
 # PCK Prelim 0358
-
-# 未回答のChallenge
 # JOI Prelim 0630
