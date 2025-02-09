@@ -1,3 +1,5 @@
+# Hello World
+
 print("Hello World")
 
 # 別解
