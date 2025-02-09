@@ -22,3 +22,7 @@ else:
     second = ms
     
 print(f"{hour}:{minute}:{second}")
+
+# 解いたChallenge
+# PCK Prelim 0317
+# JOI Prelim 0554
