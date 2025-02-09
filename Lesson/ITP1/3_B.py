@@ -4,6 +4,7 @@
 x_list = []
 i = 1
 
+# 入力 x が 0 となるまで、無限ループを繰り返す
 while True:
     x = int(input())
     
