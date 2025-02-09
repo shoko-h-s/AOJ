@@ -8,7 +8,7 @@ while True:
     if (m == -1) and (f == -1) and (r == -1):
         break
         
-    if (m == -1) or (f == -1):
+    elif (m == -1) or (f == -1):
         grade = "F"
         
     elif m + f >= 80:
