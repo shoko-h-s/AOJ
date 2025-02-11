@@ -7,10 +7,6 @@ stack = []
 def s_push(x):
     stack.append(x)
 
-# 要素を取り出す関数（逆ポーランド記法ではあまり使わない）
-def s_pop():
-    return stack.pop()
-
 def s_plus():
     # 別途、アキュムレータ（計算機）用の変数を準備
     acc = stack[-1]
@@ -51,3 +47,9 @@ for a in a_list:
         s_multi()
         
 print(stack[0])
+
+
+# その他スタックの機能
+# 要素を取り出す（今回の実装では使っていない）
+# def s_pop():
+#    return stack.pop()
